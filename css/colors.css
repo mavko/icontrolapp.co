@@ -1,0 +1,199 @@
+.green {background-color: #80d033;}
+.orange {background-color: #eeaf4b;}
+.blue {background-color: #47a0db;}
+.red {background-color: #ed7161;}
+.silver {background-color: #c5d0de;}
+.purple {background-color: #834fdf;}
+.bluebg {background-color: #23273b;}
+.bluebg2 {background-color: #1f2231;}
+.white{background-color: #fff;}
+
+.textgreen {color: #80d033;}
+.textorange {color: #eeaf4b;}
+.textblue {color: #47a0db;}
+.textred {color: #ed7161;}
+.textsilver {color: #c5d0de;}
+.textpurple {color: #834fdf;}
+.textbluebg {color: #444A59;}
+.textbluebg2 {color: #1f2231;}
+.textwhite{color: #fff;}
+
+.borderBottom {
+  border-bottom: 1px solid rgba(197, 208, 222, 0.5);
+}
+.fixPhoto {
+	width: 100% !important;
+	height: 216px !important;"
+}
+
+
+
+/*icontrol projects modal popover*/
+@media screen and (max-width:440px) {
+	#modal_container .detail {width: 225px !important;}
+	#modal_container .box-67 {max-width: 0px;min-width: 0px;margin: none;margin-top: 50px !important;}
+	#modal_container .col-4-12{padding: 0px;}
+}
+@media screen and (max-width:768px) {
+	#modal_container .box-67 {max-width: 90% !important;}
+}
+#modal_container p {
+	color: #6342B1;
+}
+#modal_container .box-67 {
+	max-width: 50%;
+	min-width: 250px;
+	margin: 0 auto;
+}
+#modal_container .box-67:hover .thumbnail-67 img { -webkit-transform: none;}
+#modal_container .box-67:hover { box-shadow: none;}
+
+#modal_container .title-67 p, h3 {margin-bottom: 0;line-height: 45px;letter-spacing: 1.5}
+
+#modal_container .category-67 {
+	font-size: 30px;
+}
+#modal_container .title-67 {
+	margin-bottom: 15px;
+	color: #444A59 !important;
+}
+#modal_container .detail {
+	border-top: 2px solid #6342B1;
+	margin: 0 auto;
+	text-align: center;
+	color: #444A59;
+	letter-spacing: 1.5px;
+	width: 280px;
+	padding: 25px;
+}
+
+
+
+/*<!-- Template #14 -->*/
+    .text-79 {
+        font-size: 20px
+    }
+    
+    .text-79 strong {
+        margin-right: 5px;
+        font-size: 22px
+    }
+    
+    .box-79 {
+        border-radius: 0;
+        box-shadow: none;
+        background: #F5F5F3
+    }
+    
+    .box-79:hover {
+        background: #fff
+    }
+    
+    .button.button-79 {
+        width: 40px;
+        height: 40px;
+        box-shadow: 0 0 0 2px #B19769!important;
+        padding: 7px 13px
+    }
+    
+    .button.button-79 svg {
+        fill: #B19769!important;
+        width: 16px;
+        height: 16px
+    }
+    
+    .name-79 {
+        color: #B19769
+    }
+    
+    .name-79 svg {
+        fill: #B19769!important;
+        stroke: none
+    }
+    
+    .slide.whiteSlide .icon-80,
+    .whiteSlide .cell-71 svg {
+        stroke: #B19769!important
+    }
+    
+    .slide.whiteSlide svg.quote-80 {
+        fill: #834fdf
+    }
+    
+    .videoThumbnail-82 {
+        margin-top: 70px
+    }
+    
+    .slides.scroll .wrap-0 {
+        padding-bottom: 0
+    }
+    
+    .slides.scroll .wrap-60 {
+        padding-top: 60px
+    }
+    
+    .slides.scroll .wrap-100 {
+        padding-top: 95px
+    }
+    
+    .grid-80 {
+        margin-top: 0
+    }
+    
+    .grid-80 [class*=col-] {
+        margin-top: 65px
+    }
+    
+    .customLogo {
+        padding-bottom: 27%
+    }
+    
+    .customSlide .wrap {
+        padding-top: 0;
+        padding-bottom: 0
+    }
+    
+    .customBox {
+        position: relative
+    }
+    
+    .customBox-2 {
+        padding: 90px 0
+    }
+    
+    .customBox:after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        background: #C2C2C2;
+        height: 1px;
+        -webkit-transition: all 2s 0s, background .25s .25s, opacity .25s .25s;
+        transition: all 2s 0s, background .25s .25s, opacity .25s .25s;
+        left: 0;
+        -webkit-transform: scaleX(.1);
+        transform: scaleX(.1);
+        box-shadow: 60px 0 0 0 #fff inset;
+        opacity: 0
+    }
+    
+    .animate .customBox:after {
+        opacity: 1;
+        background: #EBEBEB;
+        -webkit-transform: scaleX(5);
+        transform: scaleX(5)
+    }
+    
+    .slides .panel.top {
+        -webkit-transition: .5s;
+        transition: .5s
+    }
+    
+    .slides .panel.top a {
+        -webkit-transition: opacity .15s;
+        transition: opacity .15s
+    }
+    
+    .grid-68 {
+        padding: 12px 0
+    }
